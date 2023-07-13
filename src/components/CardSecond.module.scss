@@ -1,0 +1,9 @@
+.cardSection {
+  width: 600px;
+  .secondCard {
+    background-color: green;
+    [class~="p-card-content"] {
+      background-color: red !important;
+    }
+  }
+}

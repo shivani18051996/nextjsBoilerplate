@@ -1,0 +1,26 @@
+.mainCard {
+  display: flex;
+  justify-content: space-between;
+  .myCard {
+    margin: 20px;
+    width: 600px;
+    [class~="p-card-content"] {
+      background-color: pink;
+      padding: 0px;
+    }
+  }
+  .cardStyle {
+    margin: 50px;
+    width: 600px;
+    height: 400px;
+    [class~="p-card-content"] {
+      background-color: blue;
+      padding: 0px;
+      color: white;
+    }
+    [class~="p-card-body"] {
+      padding: 5px;
+      background-color: aqua;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.searchTable {
+  .dataTable {
+    [class~="p-datatable-thead"] > tr > th {
+      background-color: blue;
+    }
+    [class~="p-datatable-tbody"] > tr {
+      background-color: grey;
+    }
+  }
+}
